@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Token</title>	
+	<link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+	<div class="container-code">
+		<div>
+			<div><span>Authorization code</span></div>
+			<div><p>{{authorization_code}}</p></div>
+
+			<form method="POST" action="{% url 'access-token' %}">{% csrf_token %}
+				<input type="hidden" name="authorization-code" value="{{authorization_code}}">
+				<div>
+					<button class="oauth-button oauth-button-blue" id="login_button" type="submit" name="login" value="true">Get token yu</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html> 

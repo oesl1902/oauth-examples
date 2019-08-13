@@ -1,0 +1,19 @@
+{
+  "name": "access-code-node",
+  "version": "1.0.0",
+  "description": "Flujo access code con node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "casern@bancolombia.com.co",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-rest-client": "^3.1.0",
+    "nodemon": "^1.18.4",
+    "request": "^2.88.0",
+    "utf8": "^3.0.0"
+  }
+}

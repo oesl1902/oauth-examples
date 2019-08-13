@@ -1,0 +1,139 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	box-shadow: 0 0 5px #333;
+	padding: 10px 20px;
+}
+
+.parent-button {
+	display: flex;
+	justify-content: center;
+	height: 70vh;
+	align-items: center;
+}
+
+.oauth-button-index {
+	text-decoration: none !important;
+	border-radius: 4px;
+	color: #fff;
+	border-color: #005296;
+	height: 44px;
+	cursor: pointer;
+	background-image: none;
+	border: none;
+	padding: 17px 28px;
+	font-size: 15px;
+	line-height: 1.57142857;
+	margin: 0px 5px;
+}
+
+.oauth-button {
+	text-decoration: none !important;
+	border-radius: 4px;
+	color: #fff;
+	border-color: #005296;
+	cursor: pointer;
+	background-image: none;
+	border: none;
+	padding: 17px 28px;
+	font-size: 15px;
+	margin-top: 30px;
+}
+
+.oauth-button-blue {
+	background-color: #00418b;
+	box-shadow: 0 0 20px #00418b;
+}
+
+.oauth-button-yellow {
+	background-color: #FED704;
+	box-shadow: 0 0 20px #FED704;
+}
+
+.oauth-button-red {
+	background-color: #df001e;
+	box-shadow: 0 0 20px #df001e;
+}
+
+.parent-form {
+	display: flex;
+	justify-content: center;
+	height: 70vh;
+	align-items: center;
+	padding-top: 50px;
+}
+
+.parent-form>div {
+	border: 1px #cccccc solid;
+	padding: 40px;
+	box-shadow: 0 0 20px #cccccc;
+	min-width: 240px;
+}
+
+.container-data {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.container-data>input {
+	border: 1px solid #00448c;
+	border-radius: 3px;
+	color: #00448c !important;
+	margin-top: 10px;
+	padding: 8px 10px 6px 9px !important;
+	font-size: 14px;
+	height: 22px;
+}
+
+.container-submit {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.container-data>input:nth-child(1) {
+	margin-top: 0px;
+}
+
+.oauth-return {
+	color: #00418b;
+	text-align: center;
+	margin-top: 10px;
+	text-decoration: none;
+}
+
+.container-code {
+	height: 70vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container-code>div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0px 100px !important;
+}
+
+.container-code>div>div:nth-child(1)>span {
+	color: #df001e;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.container-code>div>div:nth-child(2)>p {
+	text-align: center;
+}
+
+.container-code>div>div {
+	margin: 5px 0px;
+}
+
+.container-code>div>form {
+	margin: 15px 0px;
+}
